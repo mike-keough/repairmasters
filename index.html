@@ -28,7 +28,14 @@
                 <div>
                     <h2>Schedule a FREE Estimate!</h2>
                 </div>
-                <form action="https://formsubmit.co/repairmasters17@gmail.com" method="POST">
+                <form action="https://formsubmit.co/repairmasters17@gmail.com" method="post">
+                    <!-- Add these hidden inputs at the beginning of your form -->
+                     <input type="hidden" name="_next" value="https://mike-keough.github.io/repairmasters/">
+                    <input type="hidden" name="_subject" value="New submission!">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="_honey" style="display:none">
+                
+                    <!-- Your existing form elements -->
                     <div class="name">
                         <label for="name">Name:</label>
                         <input type="text" name="name" required>
