@@ -233,6 +233,7 @@ form button {
     align-items: center;
     gap: 20px;
     font-size: 1.2em;
+    
 }
 
 .projects {
@@ -275,7 +276,7 @@ form button {
 }
 
 .project-info p {
-    margin-bottom: 20px;
+    
 }
 
 .project img {
