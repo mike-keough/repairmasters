@@ -7,5 +7,4 @@ function autoResize() {
     this.style.height = this.scrollHeight + 'px'
 }
 
-let phoneNumber = document.getElementById('phone-number')
 
