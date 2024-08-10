@@ -60,9 +60,8 @@ nav  li  a {
 }
 
 .info > h1 {
-    text-decoration: underline;
-    margin-bottom: 10px;
-    font-size: 2em;
+    margin-bottom: 15px;
+    font-size: 2.3em;
 }
 
 .info > p {
@@ -128,8 +127,8 @@ form button {
 }
 
 .about-us-head {
-    font-size: 1.5em;
-    font-weight: 100;
+    font-size: 2.0em;
+    font-weight: bold;
     /* text-decoration: underline; */
     text-align: center;
 
@@ -165,8 +164,7 @@ form button {
 
 .services-head {
     color: white;
-    text-decoration: underline;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 .services-offered {
@@ -217,8 +215,7 @@ form button {
 }
 
 .crew-header {
-    font-size: 1.5em;
-    text-decoration: underline;
+    font-size: 2em;
 }
 
 .crew-people {
@@ -266,14 +263,18 @@ footer {
 }
 
 .connect {
-    height: 100%;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.connections {
+    
 }
 
 .connections img {
     width: 5%;
-    margin: 5px;
-    text-align: center;
+    margin: 15px;
 }
 
 .projects {
