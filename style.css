@@ -240,7 +240,6 @@ footer {
     background-color: var(--primary-clr);
     color: white;
     gap: 45px;
-    justify-content: center;
 }
 
 .hours {
