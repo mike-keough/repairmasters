@@ -366,4 +366,18 @@ footer {
     .border-push {
         margin-bottom: 50px;
     }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .connect, .connections {
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .connections img {
+        width: 25%;
+    }
 }
