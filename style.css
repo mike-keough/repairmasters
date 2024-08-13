@@ -165,6 +165,7 @@ form button {
 .services-head {
     color: white;
     font-size: 2em;
+    text-align: center;
 }
 
 .services-offered {
@@ -267,10 +268,6 @@ footer {
     
 }
 
-.connections {
-    
-}
-
 .connections img {
     width: 5%;
     margin: 15px;
@@ -346,6 +343,9 @@ footer {
     .about-us-img {
         width: 100%;
     }
+    .service-container {
+        text-align: center;
+    }
     .services-offered {
         display: flex;
         flex-direction: column;
@@ -353,8 +353,14 @@ footer {
         text-align: center;
         justify-content: center;
     }
+    h2 {
+        text-align: center;
+    }
     .services-offered li {
         margin: 0 auto 10px;
+    }
+    .crew-container {
+        text-align: center;
     }
     .crew-people {
         grid-template-columns: repeat(1, 1fr);
