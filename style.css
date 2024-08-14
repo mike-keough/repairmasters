@@ -46,6 +46,30 @@ nav  li  a {
     color: var(--primary-clr)
 }
 
+.under-construction {
+    padding: 40px;
+    background-color: rgb(86, 82, 82);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.2em;
+}
+
+.constuction-text {
+    width: 80%;
+}
+
+.constuction-text a {
+    color: white;
+    font-weight: 600;
+}
+
+.under-construction img {
+    width: 4%;
+}
+
 .our-mission {
     display: flex;
     background-color: var(--primary-clr);
