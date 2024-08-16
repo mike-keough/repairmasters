@@ -247,7 +247,8 @@ form button {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(auto, 1fr);
-    gap: 200px;
+    gap: 80px;
+    
 }
 
 .crew-people-container {
@@ -256,7 +257,8 @@ form button {
     align-items: center;
     gap: 20px;
     font-size: 1.2em;
-    
+    width: 90%;
+    line-height: 25px;
 }
 
 footer {
